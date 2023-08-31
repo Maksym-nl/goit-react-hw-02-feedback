@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Feedback } from "./Feedback/feedback";
-
+import { Statistics } from "./Statistics/statistic";
 
 
 
