@@ -1,17 +1,23 @@
-import { Component } from 'react';
 
-export function Statistics({ good, neutral, bad }) {
+export function Statistics({ good, neutral, bad, total, positiveFeedbackPercentage }) {
   return (
     <ul>
       <li>
-        <p>Good:{good}</p>
+        <p>Good: {good}</p>
       </li>
       <li>
-        <p>Neutral:{neutral}</p>
+        <p>Neutral: {neutral}</p>
       </li>
       <li>
-        <p>Bad:{bad}</p>
+        <p>Bad: {bad}</p>
+      </li>
+      <li>
+        <p>Total: {total}</p>
+      </li>
+      <li>
+        <p>Positive: {positiveFeedbackPercentage}%</p>
       </li>
     </ul>
   );
 }
+
